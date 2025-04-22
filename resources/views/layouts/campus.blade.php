@@ -3,17 +3,17 @@
 
     <div class="container mt-4">
         <div class="row justify-content-center text-center">
-          <div class="col-md-8 d-flex align-items-center justify-content-center gap-3 flex-wrap">
-            <!-- Blinking SVG -->
-            <img src="{{ asset('templates/img/11.svg') }}" class="blinking-svg" width="70" alt="Blinking SVG">
-            <h1 class="text-danger mb-0">Campus</h1>
-          </div>
-          <div class="col-md-10">
-            <h3 class="mt-2" style="color: #125482;">Experience the vibrant campus life at NUST</h3>
-          </div>
+            <div class="col-md-8 d-flex align-items-center justify-content-center gap-3 flex-wrap">
+                <!-- Blinking SVG -->
+                <img src="{{ asset('templates/img/11.svg') }}" class="blinking-svg" width="70" alt="Blinking SVG">
+                <h1 class="text-danger mb-0">Campus</h1>
+            </div>
+            <div class="col-md-10">
+                <h3 class="mt-2" style="color: #125482;">Experience the vibrant campus life at NUST</h3>
+            </div>
         </div>
-      </div>
-      
+    </div>
+
 
     <style>
         .blinking-svg {

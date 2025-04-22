@@ -3,23 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>NUST AKUMNI PORTAL</title>
+    <title>Our Team</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
-@include('layouts.head')
-
-<style>
-    html {
-        scroll-behavior: smooth;
-    }
-
-    .modal-backdrop.show {
-        opacity: 0.7;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-</style>
+    @include('layouts.head')
 
 <body>
     <!-- Spinner Start -->
@@ -38,21 +27,84 @@
                 <ol class="breadcrumb justify-content-center">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Rector Address</a></li>
-
+                    <li class="breadcrumb-item text-light" aria-current="page">Our Team</li>
                 </ol>
             </nav>
         </div>
     </div>
-    
 
-  
+
+ <!-- Team Start -->
+<div class="container-xxl py-6">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="text-danger mb-2">Our Team</h1>
+        </div>
+
+        <div class="row g-4 team-items">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item position-relative">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" style="height: 350px; object-fit: cover;" src="{{ asset('templates/img/team/21.png') }}" alt="">
+                        <div class="team-social text-center">
+                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mt-2">Arooba Gillani</h5>
+                        <span>Director UAO</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item position-relative">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" style="height: 350px; object-fit: cover;" src="{{ asset('templates/img/team/20.png') }}" alt="">
+                        <div class="team-social text-center">
+                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mt-2">Ameer Hamza</h5>
+                        <span>Lead Alumni Relations</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item position-relative">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" style="height: 350px; object-fit: cover;" src="{{ asset('templates/img/team/22.png') }}" alt="">
+                        <div class="team-social text-center">
+                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mt-2">Iram Iqbal</h5>
+                        <span>Management Trainee Officer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+
+
     @include('layouts.footer')
 
-  
+
     @include('layouts.script')
 
-  
+
 </body>
 
-</html> 
+</html>

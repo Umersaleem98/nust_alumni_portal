@@ -3,42 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>NUST AKUMNI PORTAL</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <title>Rector Address</title>
+
 
 @include('layouts.head')
 
-<style>
-    html {
-        scroll-behavior: smooth;
-    }
-
-    .modal-backdrop.show {
-        opacity: 0.7;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-</style>
-
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" role="status"></div>
-    </div>
-    <!-- Spinner End -->
 
     @include('layouts.topbar')
     @include('layouts.header')
-    <div class="container-fluid page-header py-4 my-4 mt-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header py-4 my-4 mt-0 wow fadeInRightBig" data-wow-delay="0.1s">
         <div class="container text-center">
             <h1 class="display-4 text-white animated slideInDown mb-4">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">About</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Rector Adress</li>
+                    <li class="breadcrumb-item text-light" aria-current="page">Rector Adress</li>
                 </ol>
             </nav>
         </div>
@@ -53,9 +34,9 @@
                         <img src="templates/img/rector.jpg" alt="" class="img-fluid rounded shadow" style="width: 100%; object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-md-8 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-md-8 wow fadeInRightBig" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <h3 class="text-danger text-uppercase mb-2">RECTOR MESSAGE</h3>
+                        <h3 class="text-danger text-uppercase mb-2 fadeInRightBig" data-wow-delay="0.1s">RECTOR MESSAGE</h3>
                         <h4 class=" mb-4">Dr Muhammad Zahid Latif, Rector NUST</h4>
                         <p>
                             Allah has bestowed this great honour upon me to lead NUST as its Rector.
