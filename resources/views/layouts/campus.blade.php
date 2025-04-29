@@ -1,7 +1,7 @@
 <!-- Campus Section Start -->
 <section id="campus" class="py-5 bg-light">
 
-    <div class="container mt-4">
+    <div class="container mt-2">
         <div class="row justify-content-center text-center">
             <div class="col-md-8 d-flex align-items-center justify-content-center gap-3 flex-wrap">
                 <!-- Blinking SVG -->
@@ -9,7 +9,7 @@
                 <h1 class="text-danger mb-0">Campus</h1>
             </div>
             <div class="col-md-10">
-                <h3 class="mt-2" style="color: #125482;">Experience the vibrant campus life at NUST</h3>
+                <h3 class="mt-2 mb-4" style="color: #125482;">Experience the vibrant campus life at NUST</h3>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
 
 
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="ratio ratio-16x9">

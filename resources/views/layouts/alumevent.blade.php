@@ -5,12 +5,11 @@
     }
 </style>
 
-
-<section class="bg-light">
+<section class="bg-light mb-5">
 
     <div class="container mt-4">
         <div class="row justify-content-center text-center">
-            <div class="col-md-8 d-flex align-items-center justify-content-center gap-3 flex-wrap">
+            <div class="col-md-8 d-flex align-items-center justify-content-center gap-3 flex-wrap mt-5">
                 <!-- Blinking SVG -->
                 <img src="{{ asset('templates/img/13.svg') }}" class="blinking-svg" width="70" alt="Blinking SVG">
                 <h1 class="text-danger mb-0">AlumEvent</h1>
@@ -29,8 +28,7 @@
         </div>
     </div>
 
-
-    <div class="container my-5" id="AlumEvent">
+    <div class="container my-5 mb-5" id="AlumEvent">
         <!-- Tabs -->
         <ul class="nav nav-tabs" id="eventTabs" role="tablist">
             <li class="nav-item">
@@ -48,8 +46,8 @@
 
             <!-- Event Tab -->
             <div class="tab-pane fade show active" id="event" role="tabpanel" aria-labelledby="event-tab">
-                <div class="table-responsive mt-4">
-                    <table class="table table-bordered table-hover">
+                <div class="table-responsive mt-4" style="max-height: 400px; overflow-y: auto;">
+                    <table class="table table-bordered table-hover mb-0">
                         <thead class="thead-light">
                             <tr>
                                 <th>Image</th>
@@ -60,11 +58,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <!-- Sample Rows -->
-                            @for ($i = 1; $i <= 3; $i++)
+                            @for ($i = 1; $i <= 10; $i++) <!-- You can increase rows for testing scroll -->
                                 <tr>
-                                    <td><img src="{{ asset('templates/img/about-1.jpg') }}"
-                                            alt="Event {{ $i }}" width="80"></td>
+                                    <td><img src="{{ asset('templates/img/about-1.jpg') }}" alt="Event {{ $i }}" width="80"></td>
                                     <td>Alumni Meetup {{ $i }}</td>
                                     <td>20-Apr-2025</td>
                                     <td>UK</td>
@@ -77,30 +73,12 @@
                         </tbody>
                     </table>
                 </div>
-                <!-- Pagination for Event Tab -->
-                <nav>
-                    <ul class="pagination">
-                        <li class="page-item disabled">
-                            <a class="page-link text-danger" href="#">Previous</a>
-                        </li>
-                        <li class="page-item active">
-                            <a class="page-link bg-danger border-danger" href="#">1</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link text-danger" href="#">2</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link text-danger" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
-
             </div>
 
             <!-- Upcoming Event Tab -->
             <div class="tab-pane fade" id="upcoming" role="tabpanel" aria-labelledby="upcoming-tab">
-                <div class="table-responsive mt-4">
-                    <table class="table table-bordered table-hover">
+                <div class="table-responsive mt-4" style="max-height: 400px; overflow-y: auto;">
+                    <table class="table table-bordered table-hover mb-0">
                         <thead class="thead-light">
                             <tr>
                                 <th>Image</th>
@@ -111,10 +89,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @for ($j = 1; $j <= 3; $j++)
+                            @for ($j = 1; $j <= 10; $j++) <!-- You can increase rows for testing scroll -->
                                 <tr>
-                                    <td><img src="{{ asset('templates/img/about-1.jpg') }}"
-                                            alt="Upcoming Event {{ $j }}" width="80"></td>
+                                    <td><img src="{{ asset('templates/img/about-1.jpg') }}" alt="Upcoming Event {{ $j }}" width="80"></td>
                                     <td>Career Fair {{ $j }}</td>
                                     <td>10-May-2025</td>
                                     <td>Karachi</td>
@@ -127,47 +104,26 @@
                         </tbody>
                     </table>
                 </div>
-                <!-- Pagination for Upcoming Event Tab -->
-                <nav>
-                    <ul class="pagination">
-                        <li class="page-item disabled">
-                            <a class="page-link text-danger" href="#">Previous</a>
-                        </li>
-                        <li class="page-item active">
-                            <a class="page-link bg-danger border-danger" href="#">1</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link text-danger" href="#">2</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link text-danger" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
+
         </div>
     </div>
+    <br><br>
 </section>
 
+<!-- Blinking SVG Animation -->
 <style>
     .blinking-svg {
         animation: blink 1.5s infinite;
     }
 
     @keyframes blink {
-
-        0%,
-        100% {
-            opacity: 1;
-        }
-
-        50% {
-            opacity: 0.2;
-        }
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
     }
 </style>
 
-<!-- JavaScript -->
+<!-- JavaScript (Animation for other cards if needed) -->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const cards = document.querySelectorAll('.card.slide-in');
@@ -176,11 +132,11 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('appear');
-                    observer.unobserve(entry.target); // Animate once only
+                    observer.unobserve(entry.target);
                 }
             });
         }, {
-            threshold: 0.2 // Trigger when 20% of card is visible
+            threshold: 0.2
         });
 
         cards.forEach(card => observer.observe(card));

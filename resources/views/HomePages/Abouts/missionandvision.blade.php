@@ -31,7 +31,7 @@
         <!-- First Row: Image Left, Text Right -->
         <div class="row align-items-center mb-5">
             <div class="col-lg-6">
-                <img src="{{ asset('templates/img/mission.jpg') }}" class="img-fluid rounded wow fadeInLeft" data-wow-delay="0.3s" alt="Mission Image" style="max-height: 300px;">
+                <img src="{{ asset('templates/img/mission.jpg') }}" class="img-fluid rounded wow fadeInLeft" data-wow-delay="0.3s" alt="Mission Image" >
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.5s">
                 <h2 class="mb-3 text-danger">Our Mission</h2>

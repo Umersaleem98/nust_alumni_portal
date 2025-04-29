@@ -28,7 +28,7 @@
     <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center px-3">
         <!-- Logo Image -->
         <img src="{{ asset('templates/img/logo.png') }}" alt="Logo" style="height: 60px; width: auto; margin-right: 10px;">
-        <span style="font-size: 60px">|</span>
+        <span style="font-size: 60px; color: black">|</span>
         <!-- Text -->
         <h4 class="m-0 font-weight-bold" style="color: #6A0000;"> NUST ALUMNI PORTAL</h4>
     </a>
@@ -58,9 +58,12 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="resourcesDropdown" data-toggle="dropdown">Resources</a>
                 <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                    <a class="dropdown-item" href="{{ url('resources') }}">Library</a>
-                    <a class="dropdown-item" href="labs.html">Labs</a>
-                    <a class="dropdown-item" href="downloads.html">Downloads</a>
+                    <a class="dropdown-item" href="{{ url('resources/alumcard') }}">AlumCard</a>
+                    <a class="dropdown-item" href="{{ url('resources/campus-facilities') }}">Campus Facilities</a>
+                    <a class="dropdown-item" href="{{ url('resources/life-long-learning') }}">Life Long Learning</a>
+                    <a class="dropdown-item" href="{{ url('resources/alumcard-discounts') }}">AlumCard Discounts</a>
+                    <a class="dropdown-item" href="{{ url('resources/transcript-degree-verification') }}">Transcript/Degree Verification</a>
+
                 </div>
             </li>
 
