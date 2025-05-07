@@ -27,10 +27,10 @@
     </a> --}}
     <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center px-3">
         <!-- Logo Image -->
-        <img src="{{ asset('templates/img/logo.png') }}" alt="Logo" style="height: 60px; width: auto; margin-right: 10px;">
-        <span style="font-size: 60px; color: black">|</span>
+        <img src="{{ asset('templates/img/logo.png') }}" alt="Logo" style="height: 60px; width: auto; margin-right: 5px;">
+        <span class="mx-2" style="font-size: 60px; color: #00538D">|</span>
         <!-- Text -->
-        <h4 class="m-0 font-weight-bold" style="color: #6A0000;"> NUST ALUMNI PORTAL</h4>
+        <h4 class="m-0 font-weight-bold" style="color: #6A0000;">NUST ALUMNI PORTAL</h4>
     </a>
     
     <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarCollapse">

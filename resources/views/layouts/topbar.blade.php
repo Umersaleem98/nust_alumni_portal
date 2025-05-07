@@ -4,12 +4,12 @@
         <!-- Left Side: Email & Phone -->
         <div class="col-lg-7 px-5 text-start">
             <div class="h-100 d-inline-flex align-items-center me-4">
-                <small class="fa fa-envelope text-primary me-2"></small>
-                <small>info@nust.edu.pk</small>
+                <small class="fa fa-envelope text-light me-2"></small>
+                <small>nust.alumni@nust.edu.pk</small>
             </div>
             <div class="h-100 d-inline-flex align-items-center">
-                <small class="fa fa-phone-alt text-primary me-2"></small>
-                <small>+92 51 111 11 6878</small>
+                <small class="fa fa-phone-alt text-light me-2"></small>
+                <small>051-90856823</small>
             </div>
         </div>
 

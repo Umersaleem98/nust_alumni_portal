@@ -26,7 +26,7 @@
 
             <!-- Slide 1 -->
             <div class="carousel-item active">
-                <img class="d-block w-100 img-fluid" src="templates/img/carousel-1.jpg" alt="Image" >
+                <img class="d-block w-100 img-fluid" src="templates/img/carousel-1.gif" alt="Image" >
                 <div
                     class="carousel-caption bg-transparent d-flex flex-column align-items-center justify-content-center">
                     <div class="container">

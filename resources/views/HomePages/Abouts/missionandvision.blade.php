@@ -8,19 +8,7 @@
    
     @include('layouts.topbar')
     @include('layouts.header')
-    <div class="container-fluid page-header py-4 my-4 mt-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">About Us</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-light" aria-current="page">Mission and Vision</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-
+   
    <!-- Mission and Vision Section -->
 <div class="container-xxl py-6">
     <div class="container">
