@@ -99,7 +99,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #BB2D3B;
 }
 
 .navbar .dropdown-toggle::after {
@@ -257,7 +257,7 @@
 
 .team-item:hover::after {
     height: 100%;
-    background: var(--primary);
+    background: #6A0000;
 }
 
 .team-item .team-social {

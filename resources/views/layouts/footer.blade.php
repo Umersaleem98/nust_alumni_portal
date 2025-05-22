@@ -9,7 +9,8 @@
         Your browser does not support the video tag.
     </video> --}}
 
-    <div class="position-absolute w-100 h-100" style="
+    <div class="position-absolute w-100 h-100"
+        style="
     background-image: url('{{ asset('templates/img/footerbg.png') }}');
     background-size: cover;
     background-position: center;
@@ -17,16 +18,17 @@
     left: 0;
     z-index: 0;
     opacity: 0.15;">
-</div>
+    </div>
     <div class="container position-relative" style="z-index: 2;">
         <div class="row">
             <!-- Your existing footer columns -->
             <!-- Column 1 -->
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Get In Touch</h4>
-                <img src="{{ asset('templates/img/logo.png') }}"  alt="Logo"
+                <img src="{{ asset('templates/img/logo.png') }}" alt="Logo"
                     style="max-width: 100px; margin-bottom: 15px; color: white" class="text-center text-light">
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>University Advancement Office, Room 110, 1st Floor, ORIC building, Innovation Drive, NUST, H-12 Islamabad</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>University Advancement Office, Room 110, 1st
+                    Floor, ORIC building, Innovation Drive, NUST, H-12 Islamabad</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+92 51 90856838/ 23</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
             </div>
@@ -73,14 +75,12 @@
                             class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-
-            <!-- Footer Image -->
-            <div class="row">
-                <div class="col-12 p-0">
-                    <img src="{{ asset('templates/img/Footer.png') }}" alt="Footer Image" class="w-100"
-                        style="height: 200px; object-fit: cover; margin-top: -20px; margin-bottom: -20px;">
-                </div>
+            <div class="col-12 p-0">
+                <img src="{{ asset('templates/img/Footer.png') }}" alt="Footer Image" class="w-100"
+                    style="height: 200px; object-fit: cover;">
             </div>
+            <!-- Footer Image -->
+
         </div>
     </div>
 </div>

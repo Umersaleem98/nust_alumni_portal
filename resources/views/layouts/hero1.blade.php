@@ -46,7 +46,9 @@
                 <h1 class="display-5 fw-bold text-warning">Welcome to NUST Alumni Portal</h1>
                 <p class="px-3">Discover the power of connection with thousands of distinguished NUST alumni worldwide.</p>
                 <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
-                    <a href="#Aftergraduation" class="btn btn-danger btn-sm">Explore More</a>
+                    {{-- <a href="#Aftergraduation" class="btn btn-danger btn-lg">Explore More</a> --}}
+<a href="javascript:void(0);" class="btn btn-danger btn-lg" onclick="showAfterGraduation()">Explore More</a>
+
                 </div>
             </div>
 

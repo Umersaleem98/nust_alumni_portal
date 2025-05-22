@@ -284,7 +284,7 @@
     </div>
     
     <!-- Staff Section -->
-    <div class="container-xxl py-5">
+    {{-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="text-danger">Staff</h2>
@@ -412,7 +412,7 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- Interns Section -->
     <div class="container-xxl py-5">

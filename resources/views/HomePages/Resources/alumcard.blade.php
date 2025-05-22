@@ -20,7 +20,7 @@
         <div class="row align-items-center">
             <div class="col-md-12">
                 <img src="{{ asset('templates/img/AlumCard Banner.gif') }}" alt="Resources Image"
-                    class="img-fluid rounded shadow w-100" >
+                    class="img-fluid rounded shadow w-100">
             </div>
 
 
@@ -60,8 +60,12 @@
                                 <div class="col-md-12">
                                     {{-- <h4 class="text-danger"> AlumCard: Your Key to Staying Connected</h4> --}}
                                     <h4 class="text-danger">Welcome to a Lifetime of NUST Opportunities</h4>
-                                    <p  style="color: black" >
-                                        The AlumCard is more than just a card. It is your official identity as a proud member of the NUST alumni family. With the AlumCard, you gain exclusive access to a wide range of campus resources, networking opportunities, special privileges, and lifelong learning initiatives designed specifically for our distinguished graduates.
+                                    <p style="color: black">
+                                        The AlumCard is more than just a card. It is your official identity as a proud
+                                        member of the NUST alumni family. With the AlumCard, you gain exclusive access
+                                        to a wide range of campus resources, networking opportunities, special
+                                        privileges, and lifelong learning initiatives designed specifically for our
+                                        distinguished graduates.
                                     </p>
                                 </div>
                             </div>
@@ -77,19 +81,23 @@
                                 <div class="col-md-12">
                                     <h4 class="text-danger">Why Get an AlumCard?</h4>
                                     <ul>
-                                        <li style="color: black" >Access NUST Campus Facilities: Gym, Swimming Pool, Library, Saddle Club, and more.</li>
-                                        <li style="color: black">Exclusive Discounts: Enjoy benefits at partner hotels, restaurants, bookstores, and online platforms.</li>
-                                        <li style="color: black">Stay Informed: Receive priority updates about alumni events, career opportunities, and special programs.</li>
-                                        <li style="color: black">Strengthen Your Bond with NUST: Participate actively in alumni meetups, mentoring programs, and giving-back initiatives.</li>
+                                        <li style="color: black">Access NUST Campus Facilities: Gym, Swimming Pool,
+                                            Library, Saddle Club, and more.</li>
+                                        <li style="color: black">Exclusive Discounts: Enjoy benefits at partner hotels,
+                                            restaurants, bookstores, and online platforms.</li>
+                                        <li style="color: black">Stay Informed: Receive priority updates about alumni
+                                            events, career opportunities, and special programs.</li>
+                                        <li style="color: black">Strengthen Your Bond with NUST: Participate actively in
+                                            alumni meetups, mentoring programs, and giving-back initiatives.</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
 
-                       
+
                     </div>
-                    
+
                     <div class="tab-pane fade" id="apply" role="tabpanel" aria-labelledby="apply-tab">
                         {{-- <h4>How to Apply</h4> --}}
 
@@ -99,24 +107,31 @@
                                     <h4 class="text-danger">How to Apply for AlumCard via online Application?</h4>
                                     <ol>
                                         <li style="color: black">Signup or Log in to the NUST Alumni Portal.</li>
-                                        <li style="color: black">Fill out the AlumCard application form providing the necessary details.</li>
-                                        <li style="color: black">Upload the required documents (transcript, CNIC/passport copy, a recent photograph with blue background).</li>
-                                        <li style="color: black">Visit the Alumni Office to get your AlumCard or choose the option to deliver your card to your preferred location.</li>
+                                        <li style="color: black">Fill out the AlumCard application form providing the
+                                            necessary details.</li>
+                                        <li style="color: black">Upload the required documents (transcript,
+                                            CNIC/passport copy, a recent photograph with blue background).</li>
+                                        <li style="color: black">Visit the Alumni Office to get your AlumCard or choose
+                                            the option to deliver your card to your preferred location.</li>
                                     </ol>
-                                
+
                                     <p>
-                                       <strong>Processing Time:</strong> 10–15 working days after application submission.<br>
-                                       <strong>Collection Point:</strong> Alumni Office, NUST H-12 Campus.
+                                        <strong>Processing Time:</strong> 10–15 working days after application
+                                        submission.<br>
+                                        <strong>Collection Point:</strong> Alumni Office, NUST H-12 Campus.
                                     </p>
-                                
+
                                     <h5>Eligibility Criteria</h5>
                                     <ol>
-                                        <li style="color: black">Must be a graduate of NUST (Bachelor’s, Master’s, or Doctoral program).</li>
-                                        <li style="color: black">Graduation verified through official records (transcript/degree).</li>
+                                        <li style="color: black">Must be a graduate of NUST (Bachelor’s, Master’s, or
+                                            Doctoral program).</li>
+                                        <li style="color: black">Graduation verified through official records
+                                            (transcript/degree).</li>
                                         <li style="color: black">Good standing with the university.</li>
                                     </ol>
-                                
-                                    <p><strong>Note:</strong> In case of lost or damaged cards, a replacement request can be submitted through the portal.</p>
+
+                                    <p><strong>Note:</strong> In case of lost or damaged cards, a replacement request
+                                        can be submitted through the portal.</p>
                                 </div>
                             </div>
                         </div>
@@ -124,14 +139,14 @@
 
 
 
-                       
+
                     </div>
-                    
+
                 </div>
             </div>
 
             <!-- Full-width Image -->
-          
+
         </div>
     </div>
 
@@ -194,78 +209,88 @@
         }
 
         #overview {
-    position: relative;
-    padding: 40px 20px;
-    color: white;
-    border-radius: 10px;
-    overflow: hidden; /* Ensure child does not overflow rounded corners */
-    z-index: 1;
-}
+            position: relative;
+            padding: 40px 20px;
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            /* Ensure child does not overflow rounded corners */
+            z-index: 1;
+        }
 
-#overview::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('{{ asset('templates/img/textbackground.png') }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* filter: blur(8px); Adjust blur as needed */
-    opacity: 0.8; /* Optional: control visibility */
-    z-index: -1; /* Send behind content */
-}
+        #overview::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('{{ asset('templates/img/textbackground.png') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* filter: blur(8px); Adjust blur as needed */
+            opacity: 0.8;
+            /* Optional: control visibility */
+            z-index: -1;
+            /* Send behind content */
+        }
+
         #why {
-    position: relative;
-    padding: 40px 20px;
-    color: white;
-    border-radius: 10px;
-    overflow: hidden; /* Ensure child does not overflow rounded corners */
-    z-index: 1;
-}
+            position: relative;
+            padding: 40px 20px;
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            /* Ensure child does not overflow rounded corners */
+            z-index: 1;
+        }
 
-#why::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('{{ asset('templates/img/textbackground.png') }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* filter: blur(8px); Adjust blur as needed */
-    opacity: 0.8; /* Optional: control visibility */
-    z-index: -1; /* Send behind content */
-}
+        #why::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('{{ asset('templates/img/textbackground.png') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* filter: blur(8px); Adjust blur as needed */
+            opacity: 0.8;
+            /* Optional: control visibility */
+            z-index: -1;
+            /* Send behind content */
+        }
+
         #apply {
-    position: relative;
-    padding: 40px 20px;
-    color: white;
-    border-radius: 10px;
-    overflow: hidden; /* Ensure child does not overflow rounded corners */
-    z-index: 1;
-}
+            position: relative;
+            padding: 40px 20px;
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            /* Ensure child does not overflow rounded corners */
+            z-index: 1;
+        }
 
-#apply::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('{{ asset('templates/img/textbackground.png') }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* filter: blur(8px); Adjust blur as needed */
-    opacity: 0.8; /* Optional: control visibility */
-    z-index: -1; /* Send behind content */
-}
-
+        #apply::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('{{ asset('templates/img/textbackground.png') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* filter: blur(8px); Adjust blur as needed */
+            opacity: 0.8;
+            /* Optional: control visibility */
+            z-index: -1;
+            /* Send behind content */
+        }
     </style>
 
 

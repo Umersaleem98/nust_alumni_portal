@@ -1,4 +1,4 @@
-<div class="container mt-4" id="Aftergraudation">
+<div class="container mt-4" id="Aftergraduation">
   <div class="row justify-content-center text-center">
     <div class="col-md-8 d-flex align-items-center justify-content-center gap-3 flex-wrap">
       <!-- Blinking SVG -->
@@ -121,20 +121,9 @@
 
 <!-- JavaScript -->
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const cards = document.querySelectorAll('.card.slide-in');
-
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('appear');
-          observer.unobserve(entry.target); // Animate once only
-        }
-      });
-    }, {
-      threshold: 0.2 // Trigger when 20% of card is visible
-    });
-
-    cards.forEach(card => observer.observe(card));
-  });
+  function showAfterGraduation() {
+    const section = document.getElementById("Aftergraduation");
+    section.classList.add("show");
+    section.scrollIntoView({ behavior: "smooth" });
+  }
 </script>

@@ -36,9 +36,9 @@
                     <div class="position-relative">
                         <img class="img-fluid w-100" style="height: 350px; object-fit: cover;" src="{{ asset('templates/img/team/21.png') }}" alt="">
                         <div class="team-social text-center">
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square btn-outline-danger border-2 m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-danger border-2 m-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-danger border-2 m-1" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
@@ -53,9 +53,9 @@
                     <div class="position-relative">
                         <img class="img-fluid w-100" style="height: 350px; object-fit: cover;" src="{{ asset('templates/img/team/20.png') }}" alt="">
                         <div class="team-social text-center">
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square btn-outline-danger border-2 m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-danger border-2 m-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-danger border-2 m-1" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
@@ -70,9 +70,9 @@
                     <div class="position-relative">
                         <img class="img-fluid w-100" style="height: 350px; object-fit: cover;" src="{{ asset('templates/img/team/22.png') }}" alt="">
                         <div class="team-social text-center">
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square btn-outline-danger border-2 m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-danger border-2 m-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-danger border-2 m-1" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
